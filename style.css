@@ -4,6 +4,8 @@ body {
 
 header {
    color: white; 
+   display: flex;
+   justify-content: center;
 }
 
 div {

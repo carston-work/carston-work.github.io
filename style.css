@@ -17,12 +17,12 @@ div {
     margin-bottom: 20px;
 }
 
-div p {
+/* div p {
     max-height: 100%;
     width: 55%;
     float: left;
     font-size: 1.1rem;
-}
+} */
 
 div > img {
     width: 40%;
@@ -52,11 +52,18 @@ td > * {
     margin-left: auto;
 }
 
-.project {
-    float: left;
-    margin-right: 10%;
-    margin-left: 10%;
-    width: 30%;
+.project > * {
+    margin-right:auto;
+    margin-left: auto;
+}
+
+#projectsSpan {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    margin-right: 3em;
 }
 
 a > img {
@@ -76,7 +83,7 @@ span {
     font-size: 1.1rem;
 }
 
-iframe {
-    width:100%;
-    height:auto;
+#taLite {
+    width: 50%;
+    max-width: 300px;
 }

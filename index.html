@@ -16,9 +16,9 @@
         <h2>About Me</h2>
         <p>I enjoy getting things done. Problem-solving is one of my greatest passions,
             as well as being with my family. It's difficult for me not to leap to the aid of someone when they say 
-            "I don't get it," "Why doesn't this work?" or "Can you figure this out?"<br><br>
+            "I don't get it," "Why doesn't this work?" or "Can you figure this out?"
             After teaching math for five years at a public middle school, I had an idea for an app that would help students learn the basics of algebra. 
-            I taught myself enough to make a functioning prototype, discovered I enjoyed coding, and now coding is my career. <br><br>
+            I taught myself enough to make a functioning prototype, discovered I enjoyed coding, and now coding is my career. 
             I love to create and build things. And if you want to discuss a fantasy or sci-fi novel that you've read recently, I'm your guy!
         </p>
         <img src="./icons/me_and_fam.jpg" alt="image of myself and family">
@@ -28,17 +28,16 @@
         <span id = "skillsTable"></span>
         <table>
             <tr>
-                <td><h3>JavaScript</h3><img src="./icons/jsIcon.png" alt="Javascript Icon - Html Css Js Icons @clipartmax.com"></td>
-                <td><h3>HTML5</h3><img src="./icons/html5Icon.png" alt="HTML - Html Css Js Icons @clipartmax.com"></td>
-                <td><h3>CSS</h3><img alt="CSS.3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/256px-CSS.3.svg.png"></td>
-                <td><h3>Node</h3><img src="./icons/nodejs-icon-logo-png-transparent.png" alt="node icon"></td>
-                <td><h3>Express</h3><img src="./icons/pngfind.com-pc-master-race-png-1363736.png" alt="express icon"></td>
+                <td><h4>Python</h4><img src="./icons/pythonIcon.png" alt="pythonicon"></td>
+                <td><h4>Flask</h4><img src="./icons/kisspng-flask-python-bottle-web-framework-web-application-flask-5ace6e94133f66.5495283515234781640788.png" alt="flask icon"></td>
+                <td><h4>PostgreSQL</h4><img src="./icons/kisspng-postgresql-relational-database-management-system-o-elephants-5ad239a2e13bd9.8112337815237267549226.png" alt="postgresSQLIcon"></td>
+                <td><h4>Git</h4><img src="./icons/clipart2181371.png" alt="git icon"></td>
             </tr>
             <tr>
-                <td><h3>Git</h3><img src="./icons/clipart2181371.png" alt="git icon"></td>
-                <td><h3>Python</h3><img src="./icons/pythonIcon.png" alt="pythonicon"></td>
-                <td><h3>Flask</h3><img src="./icons/kisspng-flask-python-bottle-web-framework-web-application-flask-5ace6e94133f66.5495283515234781640788.png" alt="flask icon"></td>
-                <td><h3>PostgreSQL</h3><img src="./icons/kisspng-postgresql-relational-database-management-system-o-elephants-5ad239a2e13bd9.8112337815237267549226.png" alt="postgresSQLIcon"></td>
+                <td><h4>JavaScript</h4><img src="./icons/jsIcon.png" alt="Javascript Icon - Html Css Js Icons @clipartmax.com"></td>
+                <td><h4>HTML5</h4><img src="./icons/html5Icon.png" alt="HTML - Html Css Js Icons @clipartmax.com"></td>
+                <td><h4>CSS</h4><img alt="CSS.3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/256px-CSS.3.svg.png"></td>
+                <td><h4>Node</h4><img src="./icons/nodejs-icon-logo-png-transparent.png" alt="node icon"></td>
             </tr>
         </table>
     </span>
@@ -48,8 +47,8 @@
     <span id = "projectsSpan">
             <span id="tru-algebra-py" class='project'>
                 <h3>TruAlgebra</h3>
-                <!-- spot for my demo video -->
-                <span>
+                <iframe src="https://www.youtube.com/embed/yj1ph3aJYV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class='description'>
                     <p>This app is designed to help students learn the basics of algebra through trial and error.</p>
                     <p>Algebra teachers can assign equations from a library for their students to solve. The solving mechanic includes distributing, combining like terms, hints, and an undo button.</p>
                     <p>Built using Flask for the front-end and a PostgreSQL database. The SymPy package handles the manipulation of the equations as the students solve them. Equation formatting handled by MathJax.</p>
@@ -59,29 +58,29 @@
             <span id = "mag" class = "project">
                 <h3>MAG Character Creator</h3>
                 <iframe src="https://www.youtube.com/embed/LjxxoU372tM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <span><br>
-                    A streamlined process for fans of Brandon Sanderson's Mistborn Adventure Game to create their character<br><br>
+                <span class='description'>
+                    <p>A streamlined process for fans of Brandon Sanderson's Mistborn Adventure Game to create their character
                     The app guides users through the character creation process, without needing to consult the actual rulebook for 
-                    options or details. Main features include:
+                    options or details. Main features include:</p>
                     <ul>
                         <li>When assigning stats, the app performs all necessary calculations</li>
                         <li>When prioritizing the character's powers, certain options for the character's race are removed, as per the rulebook</li>
                         <li>Upon completion, the app displays all the character info, ready to be copied down onto a physical character sheet</li>
                     </ul>
                     <p>This app was built with JavaScript, HTML, CSS, Express, and Axios.</p>
-                </span><br><br>
+                </span>
                 <a href="https://mag-character-creator.herokuapp.com/">Try the MAG Character Creator here</a>
             </span>
             <span id = "truAlgebra" class = "project">
                 <h3>TruAlgebraLite</h3>
-                <img src="./icons/trualgebra.png" alt="screenshot of TruAlgebra app">
-                <br>
-                <span>
+                <img id='taLite' src="./icons/trualgebra.png" alt="screenshot of TruAlgebra app">
+                
+                <span class='description'>
                     <p>This is a static site that I created before the current incarnation of TruAlgebra (see above)</p>
                     <p>Users get a randomly generated equation to solve. The JavaScript file handles all math as well as the placement of new constants and coefficients. 
                     Students can also request hints as well as see the steps they have taken in their solving process.</p>
                     <p>This app was built with JavaScript, HTML, CSS, and Express. The formatting of the equations is handled by MathJax.</p>
-                </span><br><br>
+                </span>
                 <a href="https://tru-algebra.herokuapp.com/">Try TruAlgebraLite here</a>
             </span>
         </span>
